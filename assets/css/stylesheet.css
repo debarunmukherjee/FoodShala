@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+body {
+	background-color: rgb(255, 242, 242);
+}
+
+main {
+	margin-top: 12rem;
+}
+
+/******* Home page styles *******/
+header{
+	height: 95vh;
+    background-image: url(../imgs/hero-image.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: -8rem;
+    background-position-x: 0rem;
+    padding-top: 16rem;
+}
+
+.main-heading{
+	opacity: 0;
+	font-size: 7rem;
+	font-family: 'Indie Flower';
+	padding-right: 25rem;
+}
+
+.sub-heading{
+	opacity: 0;
+	font-size: 20px;
+	padding-left: 25rem;
+}
+
+.about-us{
+	margin-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.section-heading{
+	font-size: 4rem;
+	font-family: 'Indie Flower';
+}
+
+.card{
+	height: 28rem;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card img{
+	margin: 0 auto;
+}
+
+.card-img-top{
+	width: 60%;
+}
+
+.features{
+	background-color: #fff;;
+	padding-top: 3rem;
+}
+/*********************************/
+/************* Flex wrapper for short pages, so that footer remains at bottom**********/
+.flex-wrapper {
+	display: flex;
+	min-height: 45vh;
+	flex-direction: column;
+	justify-content: space-between
+}
+/******************************************************************/
+/***************** Miscellaneous Styles ***************************/
+.read-more {
+	transition: all 0.2s
+}
+
+.list-group-item {
+	border-radius: 5px;
+}
+
+.read-more:hover {
+	color: rgb(121, 121, 121);
+}
+
+.restaurant-box {
+	background-color: rgb(255, 182, 182);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 5px;
+}
+
+.restaurant-box:hover,
+.price-box:hover,
+.item-info:hover {
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.price-box {
+	background-color: rgb(142, 181, 255);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 5px;
+}
+
+.food-image {
+	max-height: 18rem;
+}
+
+.Non-Veg {
+	background-color: rgb(134, 96, 45);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 5px;
+	color: white;
+}
+
+.Veg {
+	background-color: rgb(197, 255, 122);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 5px;
+	color: black;
+}
+
+.item-details {
+	background: white;
+	border: 2px solid grey;
+}
+
+.item-info {
+	background-color: rgb(255, 184, 184);
+	padding: 15px;
+	min-height: 20rem;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+	margin-top: 8rem;
+}
+
+.buy-btn {
+	background-color: rgb(44, 143, 255);
+	color: rgb(228, 228, 228);
+	transition: all 0.2s;
+}
+
+.buy-btn:hover {
+	color: white;
+	transform: scaleX(1.1);
+}
+
+.cred-card {
+	padding: 20px;
+	border-radius: 15px;
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+	background-color: #fff;
+	width: 50%;
+}
+
+/*************************************************************/
+
+/*********** Footer styles ***************/
+footer {
+	margin-top: 2rem;
+	background-color: rgb(25, 29, 80);
+	padding: 20px;
+}
+
+.social-ul {
+	list-style: none;
+}
+
+.social-ul a:link,
+.social-ul a:visited {
+	text-decoration: none;
+}
+
+.social-ul a:hover,
+.social-ul a:active {
+	text-decoration: none;
+}
+
+.facebook,
+.google,
+.youtube,
+.insta {
+	display: inline-block;
+	font-size: 28px;
+	margin-right: 15px;
+	border-radius: 50%;
+	padding: 5px 14px;
+	background-color: #fff;
+}
+
+.facebook a {
+	color: #3b5998;
+	transition: all 0.2s;
+}
+
+.facebook:hover {
+	background-color: #3b5998;
+	color: white;
+}
+
+.google a {
+	color: #CC3333;
+	transition: all 0.2s;
+}
+
+.google:hover {
+	background-color: #CC3333;
+	color: white;
+}
+
+.youtube a {
+	color: #c4302b;
+	transition: all 0.2s;
+}
+
+.youtube:hover {
+	background-color: #c4302b;
+	color: white;
+}
+
+.insta a {
+	color: #3f729b;
+	transition: all 0.2s;
+}
+
+.insta:hover {
+	background-color: #3f729b;
+	color: white;
+}
+
+.facebook:hover a,
+.google:hover a,
+.youtube:hover a,
+.insta:hover a {
+	color: #fff;
+}
+/*****************************************/
+
+/************** Cart page styles **********/
+.product-image {
+	float: left;
+	width: 20%;
+}
+
+.product-details {
+	float: left;
+	width: 37%;
+}
+
+.product-price {
+	float: left;
+	width: 12%;
+}
+
+.product-quantity {
+	float: left;
+	width: 10%;
+}
+
+.product-removal {
+	float: left;
+	width: 9%;
+}
+
+.product-line-price {
+	float: left;
+	width: 12%;
+	text-align: right;
+}
+
+/* This is used as the traditional .clearfix class */
+.group:before,
+.shopping-cart:before,
+.column-labels:before,
+.product:before,
+.totals-item:before,
+.group:after,
+.shopping-cart:after,
+.column-labels:after,
+.product:after,
+.totals-item:after {
+	content: '';
+	display: table;
+}
+
+.group:after,
+.shopping-cart:after,
+.column-labels:after,
+.product:after,
+.totals-item:after {
+	clear: both;
+}
+
+.group,
+.shopping-cart,
+.column-labels,
+.product,
+.totals-item {
+	zoom: 1;
+}
+
+/* Apply clearfix in a few places */
+/* Apply dollar signs */
+.product .product-price:before,
+.product .product-line-price:before,
+.totals-value:before {
+	content: '₹';
+}
+
+/* Body/Header stuff */
+
+h1 {
+	font-weight: 100;
+}
+
+label {
+	color: #aaa;
+}
+
+.shopping-cart {
+	border: 1px solid black;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* Column headers */
+.column-labels label {
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #eee;
+}
+
+.column-labels .product-image,
+.column-labels .product-details,
+.column-labels .product-removal {
+	text-indent: -9999px;
+}
+
+/* Product entries */
+.product {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+.product .product-image {
+	text-align: center;
+}
+
+.product .product-image img {
+	width: 100px;
+}
+
+.product .product-details .product-title {
+	margin-right: 20px;
+}
+
+.product .product-details .product-description {
+	margin: 5px 20px 5px 0;
+	line-height: 1.4em;
+}
+
+.product .product-quantity input {
+	width: 62px;
+}
+
+.product .remove-product {
+	border: 0;
+	padding: 4px 8px;
+	background-color: #c66;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 3px;
+}
+
+.product .remove-product:hover {
+	background-color: #a44;
+}
+
+/* Totals section */
+.totals .totals-item {
+	float: right;
+	clear: both;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.totals .totals-item label {
+	float: left;
+	clear: both;
+	width: 79%;
+	text-align: right;
+}
+
+.totals .totals-item .totals-value {
+	float: right;
+	width: 21%;
+	text-align: right;
+}
+
+.checkout {
+	float: right;
+	border: 0;
+	margin-top: 20px;
+	padding: 6px 25px;
+	background-color: #6b6;
+	color: #fff;
+	font-size: 25px;
+	border-radius: 3px;
+}
+
+.checkout:hover {
+	background-color: #494;
+}
+
+/* Make adjustments for tablet */
+@media screen and (max-width: 650px) {
+	.shopping-cart {
+		margin: 0;
+		padding-top: 20px;
+		border-top: 1px solid #eee;
+	}
+
+	.column-labels {
+		display: none;
+	}
+
+	.product-image {
+		float: right;
+		width: auto;
+	}
+
+	.product-image img {
+		margin: 0 0 10px 10px;
+	}
+
+	.product-details {
+		float: none;
+		margin-bottom: 10px;
+		width: auto;
+	}
+
+	.product-price {
+		clear: both;
+		width: 70px;
+	}
+
+	.product-quantity {
+		width: 100px;
+	}
+
+	.product-quantity input {
+		margin-left: 20px;
+	}
+
+	.product-quantity:before {
+		content: 'x';
+	}
+
+	.product-removal {
+		width: auto;
+	}
+
+	.product-line-price {
+		float: right;
+		width: 70px;
+	}
+}
+
+/* Make more adjustments for phone */
+@media screen and (max-width: 350px) {
+	.product-removal {
+		float: right;
+	}
+
+	.product-line-price {
+		float: right;
+		clear: left;
+		width: auto;
+		margin-top: 10px;
+	}
+
+	.product .product-line-price:before {
+		content: 'Item Total: ₹';
+	}
+
+	.totals .totals-item label {
+		width: 60%;
+	}
+
+	.totals .totals-item .totals-value {
+		width: 40%;
+	}
+}
+/*******************************************/
+/************ AJAX Search bar styles ********/
+
+.search-bar{
+	position: relative;
+	width: 50%;
+}
+
+.search-result{
+	position: absolute;
+	z-index: 100;
+	width: 93%;
+	margin-top: 5px;
+	background-color: #fff;
+}
+
+.search-result .list-group-item{
+	background-color: #28a745;
+	color: #fff;
+	text-align: center;
+	margin-top: 3px;
+	border-radius: 4px;
+}
+
+/********************************************/
+@media (max-width: 1025px){
+	header{
+		height: 49vh;
+	}
+}
+@media (max-width: 768px){
+	header{
+		padding-top: 8rem;
+	}
+}
+@media (max-width: 600px){
+	.main-heading{
+		opacity: 0;
+		font-size: 3rem;
+		padding-right: 10px;
+	}
+	.sub-heading{
+		opacity: 0;
+		font-size: 15px;
+		padding-left: 10px;
+	}
+	header{
+		padding-top: 3rem;
+		height: 38vh;
+	}
+	.card{
+		margin: 10px auto;
+	}
+	.cred-card{
+		width: 80%;
+	}
+	.restaurant-box{
+		margin-top: 10px;
+	}
+	.search-bar {
+		width: 100%;
+	}
+	.product .product-quantity input {
+		margin-top: -28px;
+	}
+}

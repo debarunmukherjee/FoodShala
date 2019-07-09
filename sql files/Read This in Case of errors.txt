@@ -1,0 +1,5 @@
+If directly importing the foodshala sql file doesn't work, create a database named 'foodshala' in phpMyAdmin, and then import the 
+tables: 'menu' , 'orders' and 'users' separately.
+
+If there's any problem please contact me:
+email: debarun.mukherjee1997@gmail.com
