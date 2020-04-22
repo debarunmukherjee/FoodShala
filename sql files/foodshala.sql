@@ -77,11 +77,11 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`order_id`, `user_id`, `restaurant_name`, `menu_id`, `quantity`, `amount`, `address`, `phone`, `payment_id`, `order_created_at`) VALUES
-(1, 1, 'Tandoor House', 7, 1, 1086, '1-C Baidik Co-op Housing Society Ltd., Bengal Ambuja, City Center', '8170829705', 'DUMMY12345', '2019-07-08 17:24:19'),
-(2, 1, 'Tandoor House', 5, 1, 435, '1-C Baidik Co-op Housing Society Ltd., Bengal Ambuja, City Center', '8170829705', 'DUMMY12345', '2019-07-08 20:35:40'),
-(3, 1, 'Tandoor House', 6, 2, 1695, '1-C Baidik Co-op Housing Society Ltd., Bengal Ambuja, City Center', '8170829705', 'DUMMY12345', '2019-07-08 20:38:33'),
-(4, 2, 'Haji Biriyani', 1, 1, 173, '95/F4, Basundhara Housing,  South canal road, Chingrighata, Kolkata, West Bengal, 700105', '8170829705', 'DUMMY12345', '2019-07-08 20:44:36'),
-(5, 1, 'Tandoor House', 4, 1, 215, 'awesome place', '8170829705', 'DUMMY12345', '2019-07-09 14:27:43');
+(1, 1, 'Tandoor House', 7, 1, 1086, 'ggg', '12345', 'DUMMY12345', '2019-07-08 17:24:19'),
+(2, 1, 'Tandoor House', 5, 1, 435, 'ggg', '12345', 'DUMMY12345', '2019-07-08 20:35:40'),
+(3, 1, 'Tandoor House', 6, 2, 1695, 'ggg', '12345', 'DUMMY12345', '2019-07-08 20:38:33'),
+(4, 2, 'Haji Biriyani', 1, 1, 173, 'ggg', '12345', 'DUMMY12345', '2019-07-08 20:44:36'),
+(5, 1, 'Tandoor House', 4, 1, 215, 'awesome place', '12345', 'DUMMY12345', '2019-07-09 14:27:43');
 
 -- --------------------------------------------------------
 
