@@ -18,6 +18,15 @@ This repo contains in-development code for future releases. To download the
 latest stable release please visit the `CodeIgniter Downloads
 <https://codeigniter.com/download>`_ page.
 
+*****************
+Tutorial Followed
+*****************
+
+I made this application following the below playlist by Traversy Media.
+
+https://www.youtube.com/playlist?list=PLillGF-RfqbaP_71rOyChhjeK1swokUIS
+
+
 **************************
 Changelog and New Features
 **************************
